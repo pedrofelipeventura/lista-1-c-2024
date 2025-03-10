@@ -1,0 +1,20 @@
+//Elabore um programa que apresente o valor da convers ̃ao em d ́olar de um valor lido em real. O
+//programa deve solicitar o valor da cota ̧c ̃ao do d ́olar e tamb ́em a quantidade de reais que o usu ́ario
+//deseja converter.
+
+#include <stdio.h>
+
+float dolar, reais;
+
+int main(){
+
+printf("Qual o valor atual da cotação do dólar?:\n");
+scanf("%f", &dolar);
+printf("Quantos reais você deseja converter?\n");
+scanf("%f", &reais);
+
+printf("O valor de dólares que você vai conseguir de acordo com a conversão atual é igual a:%.2f\n"
+, reais/dolar);
+
+return 0;
+}
